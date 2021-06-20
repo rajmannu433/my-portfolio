@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MyNavbar from './MyNavbar';
+import Example from './Example';
 
 class MyFolio extends Component {
   constructor(props) {
@@ -15,8 +16,8 @@ class MyFolio extends Component {
       i: 0,
       showMobileNav: false,
     };
-    // this.navClick = this.navClick.bind(this);
   }
+
   componentDidMount() {
     var interval = setInterval(() => {
       if (this.state.i <= this.state.profile.length) {
@@ -31,15 +32,7 @@ class MyFolio extends Component {
     return () => clearInterval(interval);
   }
 
-  // navClick() {
-  //   console.log('yes', this.state.showMobileNav);
-  //   this.setState({
-  //     showMobileNav: true,
-  //   });
-  // }
-
   render() {
-    const profiles = this.state.profile;
     return (
       <div>
         <div>
@@ -126,7 +119,10 @@ class MyFolio extends Component {
               <div class="hero-container" data-aos="fade-in">
                 <h1>Abhishek Raj </h1>
                 <h3>
-                  I'm a<div>{profiles[this.state.i]}</div>
+                  I'm a
+                  <div>
+                    <Example />
+                  </div>
                 </h3>
               </div>
             </section>
