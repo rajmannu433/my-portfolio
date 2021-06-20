@@ -76,9 +76,7 @@ class MyFolio extends Component {
                     >
                       <i class="bx bxl-instagram"></i>
                     </a>
-                    <a href="www.google.com" class="google-plus">
-                      <i class="bx bxl-skype"></i>
-                    </a>
+
                     <a href="https://github.com/rajmannu433" class="github">
                       <i class="bx bxl-github"></i>
                     </a>
@@ -544,7 +542,7 @@ class MyFolio extends Component {
                     >
                       <h3 class="resume-title">Professional Experience</h3>
                       <div class="resume-item">
-                        <h4>Automation Inten</h4>
+                        <h4>Automation Intern</h4>
                         <h5>2021 - Present</h5>
                         <p>
                           <em>Ab In-Bev </em>

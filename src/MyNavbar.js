@@ -33,17 +33,21 @@ class MyNavbar extends Component {
                     >
                       <i class="bx bxl-twitter"></i>
                     </a>
-                    <a href="www.facebook.com" class="facebook">
+                    <a
+                      href="https://www.facebook.com/abhishek.raj.5811/"
+                      class="facebook"
+                    >
                       <i class="bx bxl-facebook"></i>
                     </a>
-                    <a href="www.instagram.com" class="instagram">
+                    <a
+                      href="https://www.instagram.com/abhishek_mannu/"
+                      class="instagram"
+                    >
                       <i class="bx bxl-instagram"></i>
                     </a>
-                    <a href="www.google.com" class="google-plus">
-                      <i class="bx bxl-skype"></i>
-                    </a>
-                    <a href="www.google.com" class="linkedin">
-                      <i class="bx bxl-linkedin"></i>
+
+                    <a href="https://github.com/rajmannu433" class="github">
+                      <i class="bx bxl-github"></i>
                     </a>
                   </div>
                 </div>
