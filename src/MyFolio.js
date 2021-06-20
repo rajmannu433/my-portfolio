@@ -139,7 +139,7 @@ class MyFolio extends Component {
                     <h2>About</h2>
                     <p>
                       I'm a software engineer gratudated from BIT Mesra Ranchi.
-                      I have currently working in Ab In-Bev(World's largest
+                      I am currently working in Ab In-Bev(World's largest
                       brewer). I am a technology enthusiast and i'm always eager
                       to learn new technologies. I love gadgets and shoes.
                     </p>
