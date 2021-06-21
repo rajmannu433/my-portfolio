@@ -18,20 +18,6 @@ class MyFolio extends Component {
     };
   }
 
-  componentDidMount() {
-    var interval = setInterval(() => {
-      if (this.state.i <= this.state.profile.length) {
-        const m = this.state.i;
-        this.setState({
-          i: m + 1,
-        });
-      } else {
-        this.setState({ i: 0 });
-      }
-    }, 2000);
-    return () => clearInterval(interval);
-  }
-
   render() {
     return (
       <div>
@@ -737,6 +723,30 @@ class MyFolio extends Component {
                     ></iframe> */}
                       </div>
                     </div>
+                  </div>
+                  <div class="social-links mt-3 text-center">
+                    <a
+                      href="https://twitter.com/Abhishe69290438"
+                      class="twitter"
+                    >
+                      <i class="bx bxl-twitter"></i>
+                    </a>
+                    <a
+                      href="https://www.facebook.com/abhishek.raj.5811/"
+                      class="facebook"
+                    >
+                      <i class="bx bxl-facebook"></i>
+                    </a>
+                    <a
+                      href="https://www.instagram.com/abhishek_mannu/"
+                      class="instagram"
+                    >
+                      <i class="bx bxl-instagram"></i>
+                    </a>
+
+                    <a href="https://github.com/rajmannu433" class="github">
+                      <i class="bx bxl-github"></i>
+                    </a>
                   </div>
                 </div>
               </section>

@@ -6,15 +6,11 @@ class MyNavbar extends Component {
   render() {
     return (
       <div id="extra-navbar">
-        <Navbar bg="dark" expand="lg">
-          <Navbar.Brand href="#"></Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="mr-auto my-2 my-lg-0"
-              style={{ maxHeight: '100px' }}
-              navbarScroll
-            >
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+          <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto">
               <div class="d-flex flex-column">
                 <div class="profile">
                   <img
