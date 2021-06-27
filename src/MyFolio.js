@@ -154,7 +154,9 @@ class MyFolio extends Component {
                               <i class="bi bi-chevron-right"></i>{' '}
                               <strong>Website:</strong>{' '}
                               <span>
-                                https://rajmannu433.github.io/my-portfolio
+                                <a href="https://rajmannu433.github.io/my-portfolio">
+                                  WEBSITE
+                                </a>
                               </span>
                             </li>
                             <li>
@@ -480,11 +482,7 @@ class MyFolio extends Component {
                             to learn and explore and create new technologies
                           </em>
                         </p>
-                        <ul>
-                          <li>Shyam Bhawan Mangal Bazar Hazaribag</li>
-                          <li>9829617811</li>
-                          <li>rajmannu433@gmail.com</li>
-                        </ul>
+                        <ul></ul>
                       </div>
 
                       <h3 class="resume-title">Education</h3>
@@ -494,7 +492,7 @@ class MyFolio extends Component {
                         <p>
                           <em>Birla Institute of Technology, Mesra Ranchi</em>
                         </p>
-                        <p>Pursues my B.Tech in Information Technology</p>
+                        <p>Pursued my B.Tech in Information Technology</p>
                       </div>
                       <div class="resume-item">
                         <h4>Class 11-12</h4>
@@ -502,9 +500,7 @@ class MyFolio extends Component {
                         <p>
                           <em>Jawahar Vidya Mandir, Shyamali Ranchi</em>
                         </p>
-                        <p>
-                          Studies my class 11 and 12 from JVM Shyamali Ranchi
-                        </p>
+                        <p></p>
                       </div>
                       <div class="resume-item">
                         <h4>Class Prep-10</h4>
@@ -512,9 +508,7 @@ class MyFolio extends Component {
                         <p>
                           <em>St. Xaviers School Hazaribag</em>
                         </p>
-                        <p>
-                          Studies my class Prep to 10 from St. Xaviers Hazaribag
-                        </p>
+                        <p></p>
                       </div>
                     </div>
                     <div
