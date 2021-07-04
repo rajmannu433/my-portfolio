@@ -1,6 +1,42 @@
 import React, { Component } from 'react';
 import MyNavbar from './MyNavbar';
 import Example from './Example';
+import {
+  bounce,
+  rotateIn,
+  tada,
+  zoomIn,
+  jello,
+  bounceOut,
+} from 'react-animations';
+import Radium, { StyleRoot } from 'radium';
+
+const styles = {
+  bounce: {
+    animation: 'x 2s',
+    animationName: Radium.keyframes(bounce, 'bounce'),
+  },
+  rotateIn: {
+    animation: 'x 1s',
+    animationName: Radium.keyframes(rotateIn, 'rotateIn'),
+  },
+  tada: {
+    animation: 'x 1s',
+    animationName: Radium.keyframes(tada, 'tada'),
+  },
+  zoomIn: {
+    animation: 'x 1s',
+    animationName: Radium.keyframes(zoomIn, 'zoomIn'),
+  },
+  jello: {
+    animation: 'x 1s',
+    animationName: Radium.keyframes(jello, 'jello'),
+  },
+  bounceOut: {
+    animation: 'x 1s',
+    animationName: Radium.keyframes(bounceOut, 'bounceOut'),
+  },
+};
 
 class MyFolio extends Component {
   constructor(props) {
@@ -103,13 +139,18 @@ class MyFolio extends Component {
               class="d-flex flex-column justify-content-center align-items-center"
             >
               <div class="hero-container" data-aos="fade-in">
-                <h1>Abhishek Raj </h1>
-                <h3>
-                  I'm a
-                  <div>
-                    <Example />
+                <StyleRoot>
+                  <div className="test" style={styles.bounce}>
+                    <h1>Abhishek Raj </h1>
+
+                    <h3>I'm a</h3>
                   </div>
-                </h3>
+                </StyleRoot>
+                <div>
+                  <h3>
+                    <Example />
+                  </h3>
+                </div>
               </div>
             </section>
             {/* <!-- End Hero --> */}
@@ -119,6 +160,7 @@ class MyFolio extends Component {
                 <div class="container">
                   <div class="section-title">
                     <h2>About</h2>
+
                     <p>
                       I'm a software engineer gratudated from BIT Mesra Ranchi.
                       I am currently working in Ab In-Bev(World's largest
