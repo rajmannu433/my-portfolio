@@ -561,13 +561,13 @@ class MyFolio extends Component {
                       <h3 class="resume-title">Professional Experience</h3>
                       <div class="resume-item">
                         <h4>Automation Intern</h4>
-                        <h5>2021 - Present</h5>
+                        <h5>2021(January) - 2021(July)</h5>
                         <p>
                           <em>Ab In-Bev </em>
                         </p>
                         <ul>
                           <li>
-                            Intern int he GCC India of the company Ab Inbev
+                            Intern in the GCC India of the company Ab Inbev
                           </li>
                           <li>I work at the GEL tower of the company</li>
                           <li>
@@ -575,6 +575,25 @@ class MyFolio extends Component {
                             Portal for the team
                           </li>
                           <li>From Jan - july 2021</li>
+                        </ul>
+                      </div>
+                      <div class="resume-item">
+                        <h4>Technical Consultant at PwC</h4>
+                        <h5>2021 - Present</h5>
+                        <p>
+                          <em>PricewaterhouseCoopers Pvt Ltd </em>
+                        </p>
+                        <ul>
+                          <li>
+                            Technical consultant at PwC India. Salesforce
+                            developer.
+                          </li>
+                          <li>Competency SFDC</li>
+                          <li>
+                            Involved into quite many projects into development
+                            of salesforce
+                          </li>
+                          <li>Presently Working</li>
                         </ul>
                       </div>
                       {/* <div class="resume-item">
