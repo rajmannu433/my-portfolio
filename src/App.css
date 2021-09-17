@@ -247,6 +247,7 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  margin-top: 300px;
   /* margin-left: -10%; */
 }
 @media only screen and (min-width: 1500px) {
@@ -254,10 +255,18 @@ h6 {
     position: relative;
     z-index: 2;
     min-width: 300px;
-    margin-left: -40%;
+    margin-left: -20%;
   }
 }
 
+@media only screen and (min-width: 1680px) {
+  #hero .hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+    margin-left: -40%;
+  }
+}
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 50px;
