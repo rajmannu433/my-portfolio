@@ -51,7 +51,11 @@ class MyFolio extends Component {
       ],
       i: 0,
       showMobileNav: false,
+      age: new Date().getFullYear() - 1997 - 1,
     };
+  }
+  componentDidMount() {
+    console.log(this.state.age);
   }
 
   render() {
@@ -216,7 +220,8 @@ class MyFolio extends Component {
                           <ul>
                             <li>
                               <i class="bi bi-chevron-right"></i>{' '}
-                              <strong>Age:</strong> <span>23</span>
+                              <strong>Age:</strong>{' '}
+                              <span>{this.state.age}</span>
                             </li>
                             <li>
                               <i class="bi bi-chevron-right"></i>{' '}
