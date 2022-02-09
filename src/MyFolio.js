@@ -212,7 +212,7 @@ class MyFolio extends Component {
                             <li>
                               <i class="bi bi-chevron-right"></i>{' '}
                               <strong>City:</strong>{' '}
-                              <span>Hazaribag, India 825301</span>
+                              <span>Hazaribag, India</span>
                             </li>
                           </ul>
                         </div>
