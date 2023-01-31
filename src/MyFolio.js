@@ -167,9 +167,11 @@ class MyFolio extends Component {
 
                     <p>
                       I'm a software engineer gratudated from BIT Mesra Ranchi.
-                      I am currently working in Ab In-Bev(World's largest
-                      brewer). I am a technology enthusiast and i'm always eager
-                      to learn new technologies. I love gadgets and shoes.
+                      I am currently working in PriceWaterhouse Coopers as a
+                      technology consultant. I did my internship from Ab
+                      In-Bev(World's largest brewer). I am a technology
+                      enthusiast and i'm always eager to learn new technologies.
+                      I love gadgets and shoes.
                     </p>
                   </div>
 
